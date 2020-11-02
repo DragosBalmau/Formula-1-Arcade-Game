@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="TemePOO"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/Proiecte/TemePOO/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Proiecte/TemePOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Proiecte/TemePOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Proiecte/TemePOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Proiecte/TemePOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TemePOO">
+				<Option output="D:/Proiecte/TemePOO/cmake-build-debug/TemePOO.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Proiecte/TemePOO/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Proiecte/TemePOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 TemePOO"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Proiecte/TemePOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Proiecte/TemePOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Proiecte/TemePOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TemePOO/fast">
+				<Option output="D:/Proiecte/TemePOO/cmake-build-debug/TemePOO.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Proiecte/TemePOO/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Proiecte/TemePOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 TemePOO/fast"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Proiecte/TemePOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Proiecte/TemePOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Proiecte/TemePOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/Proiecte/TemePOO/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Proiecte/TemePOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Proiecte/TemePOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Proiecte/TemePOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Proiecte/TemePOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/Proiecte/TemePOO/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Proiecte/TemePOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Proiecte/TemePOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Proiecte/TemePOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Proiecte/TemePOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/Proiecte/TemePOO/Engine.cpp">
+			<Option target="TemePOO"/>
+		</Unit>
+		<Unit filename="D:/Proiecte/TemePOO/Engine.h">
+			<Option target="TemePOO"/>
+		</Unit>
+		<Unit filename="D:/Proiecte/TemePOO/F1car.cpp">
+			<Option target="TemePOO"/>
+		</Unit>
+		<Unit filename="D:/Proiecte/TemePOO/F1car.h">
+			<Option target="TemePOO"/>
+		</Unit>
+		<Unit filename="D:/Proiecte/TemePOO/Pilot.cpp">
+			<Option target="TemePOO"/>
+		</Unit>
+		<Unit filename="D:/Proiecte/TemePOO/Pilot.h">
+			<Option target="TemePOO"/>
+		</Unit>
+		<Unit filename="D:/Proiecte/TemePOO/Team.cpp">
+			<Option target="TemePOO"/>
+		</Unit>
+		<Unit filename="D:/Proiecte/TemePOO/Team.h">
+			<Option target="TemePOO"/>
+		</Unit>
+		<Unit filename="D:/Proiecte/TemePOO/Teams/AlfaRomeoRacing.cpp">
+			<Option target="TemePOO"/>
+		</Unit>
+		<Unit filename="D:/Proiecte/TemePOO/Teams/AlfaRomeoRacing.h">
+			<Option target="TemePOO"/>
+		</Unit>
+		<Unit filename="D:/Proiecte/TemePOO/Teams/AlphaTauri.cpp">
+			<Option target="TemePOO"/>
+		</Unit>
+		<Unit filename="D:/Proiecte/TemePOO/Teams/AlphaTauri.h">
+			<Option target="TemePOO"/>
+		</Unit>
+		<Unit filename="D:/Proiecte/TemePOO/Teams/Haas.cpp">
+			<Option target="TemePOO"/>
+		</Unit>
+		<Unit filename="D:/Proiecte/TemePOO/Teams/Haas.h">
+			<Option target="TemePOO"/>
+		</Unit>
+		<Unit filename="D:/Proiecte/TemePOO/Teams/McLaren.cpp">
+			<Option target="TemePOO"/>
+		</Unit>
+		<Unit filename="D:/Proiecte/TemePOO/Teams/McLaren.h">
+			<Option target="TemePOO"/>
+		</Unit>
+		<Unit filename="D:/Proiecte/TemePOO/Teams/MercedesAMG.cpp">
+			<Option target="TemePOO"/>
+		</Unit>
+		<Unit filename="D:/Proiecte/TemePOO/Teams/MercedesAMG.h">
+			<Option target="TemePOO"/>
+		</Unit>
+		<Unit filename="D:/Proiecte/TemePOO/Teams/RacingPoint.cpp">
+			<Option target="TemePOO"/>
+		</Unit>
+		<Unit filename="D:/Proiecte/TemePOO/Teams/RacingPoint.h">
+			<Option target="TemePOO"/>
+		</Unit>
+		<Unit filename="D:/Proiecte/TemePOO/Teams/RedBullRacing.cpp">
+			<Option target="TemePOO"/>
+		</Unit>
+		<Unit filename="D:/Proiecte/TemePOO/Teams/RedBullRacing.h">
+			<Option target="TemePOO"/>
+		</Unit>
+		<Unit filename="D:/Proiecte/TemePOO/Teams/Renault.cpp">
+			<Option target="TemePOO"/>
+		</Unit>
+		<Unit filename="D:/Proiecte/TemePOO/Teams/Renault.h">
+			<Option target="TemePOO"/>
+		</Unit>
+		<Unit filename="D:/Proiecte/TemePOO/Teams/ScuderiaFerrari.cpp">
+			<Option target="TemePOO"/>
+		</Unit>
+		<Unit filename="D:/Proiecte/TemePOO/Teams/ScuderiaFerrari.h">
+			<Option target="TemePOO"/>
+		</Unit>
+		<Unit filename="D:/Proiecte/TemePOO/Teams/Williams.cpp">
+			<Option target="TemePOO"/>
+		</Unit>
+		<Unit filename="D:/Proiecte/TemePOO/Teams/Williams.h">
+			<Option target="TemePOO"/>
+		</Unit>
+		<Unit filename="D:/Proiecte/TemePOO/main.cpp">
+			<Option target="TemePOO"/>
+		</Unit>
+		<Unit filename="D:/Proiecte/TemePOO/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
