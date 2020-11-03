@@ -1,7 +1,8 @@
+#include <iostream>
 #include "Pilot.h"
 
 
-Pilot operator=(Pilot const &pilot) {
+Pilot Pilot::operator=(Pilot const &pilot) {
 
 
     this->salary = pilot.salary;
@@ -9,14 +10,14 @@ Pilot operator=(Pilot const &pilot) {
     return *this;
 }
 
-Pilot() {
+Pilot::Pilot() {
 
     printf("Pilot null created\n");
 
 }
 
 
-Pilot(const string name, string team, string nationality, int age, int salary,
+Pilot::Pilot(const std::string name, std::string team, std::string nationality, int age, int salary,
       int numberCar, int nrVictories, int nrPodiums, int nrRaces, int points, int nrChampionshipsWon) {
 
     this->name = name;
@@ -33,7 +34,7 @@ Pilot(const string name, string team, string nationality, int age, int salary,
 
 }
 
-Pilot(const Pilot &pilot) {
+Pilot::Pilot(const Pilot &pilot) {
 
     name = pilot.name;
     team = pilot.team;
@@ -50,7 +51,7 @@ Pilot(const Pilot &pilot) {
 }
 
 
-int finishRace(int position) {
+int Pilot::finishRace(int position) {
 
     switch (position) {
         case 1:
@@ -91,18 +92,18 @@ int finishRace(int position) {
     nrRaces++;
 }
 
-void winTheChampionship() {
+void Pilot::winTheChampionship() {
 
     std::cout << name << " has won the 2020 F1 Championship!!!" << std::endl;
     nrChampionshipsWon++;
 
 }
 
-void setSalary(int salary) {
+void Pilot::setSalary(int salary) {
     this->salary = salary;
 }
 
-int getSalary() {
+int Pilot::getSalary() {
     return salary;
 }
 
