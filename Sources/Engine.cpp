@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string>
-#include "Engine.h"
+#include "../Headers/Engine.h"
 
 
     void startEngine() {
@@ -11,16 +11,17 @@
         printf("The engine just stopped!");
     }
 
-    Engine::Engine(int nrHp, int nrCylinders, std::string engineCompany) {
+    Engine::Engine(int nrHp, std::string engineCompany) {
 
         this->nrHp = nrHp;
-        this->nrCylinders = nrCylinders;
         this->engineCompany = engineCompany;
 
     }
 
     Engine::~Engine() {
 
-        printf("Engine distroid");
+        printf("Engine destroyed");
 
     }
+
+
