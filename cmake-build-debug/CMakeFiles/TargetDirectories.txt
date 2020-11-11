@@ -1,3 +1,0 @@
-D:/Proiecte/TemePOO/cmake-build-debug/CMakeFiles/TemePOO.dir
-D:/Proiecte/TemePOO/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/Proiecte/TemePOO/cmake-build-debug/CMakeFiles/rebuild_cache.dir
