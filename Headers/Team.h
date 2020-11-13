@@ -21,9 +21,22 @@ private:
     int points;
     int nrVictories;
 
+
+    //De ce trebuie astea daca tot mostenesc clasa Team?
+    friend class MercedesAMG;
+
+    friend class ScuderiaFerrari;
+
+    friend class Renault;
+
+    friend class RedBullRacing;
+
 public:
 
-    Team(const std::string &name, const std::string &color, const Pilot &primaryPilot, const Pilot &secondaryPilot);
+    Team(const std::string &name, const std::string &color, const Pilot &primaryPilot, const Pilot &secondaryPilot,
+         Engine engine);
+
+    Team();
 
 
 };

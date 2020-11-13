@@ -11,17 +11,7 @@
         printf("The engine just stopped!");
     }
 
-    Engine::Engine(int nrHp, std::string engineCompany) {
+    Engine::Engine(int nrHp, std::string engineCompany) : nrHp(nrHp), engineCompany(engineCompany) {}
 
-        this->nrHp = nrHp;
-        this->engineCompany = engineCompany;
-
-    }
-
-    Engine::~Engine() {
-
-        printf("Engine destroyed");
-
-    }
 
 

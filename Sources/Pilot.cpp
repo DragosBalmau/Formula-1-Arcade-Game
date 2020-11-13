@@ -13,7 +13,6 @@
 Pilot::Pilot(const Pilot &pilot) {
 
     name = pilot.name;
-    team = pilot.team;
     country = pilot.country;
     numberCar = pilot.numberCar;
     nrVictories = pilot.nrVictories;
@@ -68,6 +67,9 @@ void Pilot::winTheChampionship() {
 
 Pilot::Pilot(const std::string &name, const std::string &nationality, int numberCar) : name(name),
                                                                                        country(country), numberCar(numberCar) {}
+
+Pilot::Pilot() {}
+
 
 
 

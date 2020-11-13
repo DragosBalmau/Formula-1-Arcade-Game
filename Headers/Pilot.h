@@ -7,7 +7,6 @@ class Pilot {
 private:
 
     std::string name;
-    std::string team;
     std::string country;
 
     int numberCar;
@@ -20,13 +19,13 @@ public:
 
     Pilot(const std::string &name, const std::string &country, int numberCar);
 
+    Pilot();
+
     Pilot(const Pilot &pilot);
 
     int finishRace(int position);
 
     void winTheChampionship();
-
-
 
 };
 

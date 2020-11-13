@@ -13,11 +13,13 @@
 #include "../Teams/Headers/Williams.h"
 
 
-using namespace std;
-
-
-
 int main() {
+
+
+    Engine renaultEngine(907,"Renault");
+    Engine ferrariEngine(934, "Ferrari");
+    Engine mercedesEngine(949,"Mercedes");
+    Engine hondaEngine(881, "Honda");
 
     //Mercedes
     Pilot HAM("Lewis Hamilton", "United Kingdom", 44);
@@ -63,13 +65,12 @@ int main() {
     AlphaTauri alphaTauri();
     Haas hass();
     McLaren mcLaren();
-    MercedesAMG mercedes();
+    MercedesAMG mercedes("Mercedes", "black", HAM, BOT, mercedesEngine);
     RacingPoint racingPoint();
     RedBullRacing redBullRacing();
     Renault renault();
     ScuderiaFerrari scuderiaFerrari();
     Williams williams();
-
 
 
 }

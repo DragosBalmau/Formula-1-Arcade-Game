@@ -4,16 +4,16 @@
 class Engine {
 
 private:
-    int nrHp;
-    int nrCylinders;
-    std::string engineCompany;
+    int nrHp = 0;
+    std::string engineCompany = "";
 
 public:
 
     void startEngine();
     void stopEngine();
     Engine(int nrHp, std::string engineCompany);
-    
+    Engine();
+
 
 };
 

@@ -12,36 +12,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="643cff5c-e4e3-4aca-93f1-dbf808d1712f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Engine.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Engine.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Engine.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Engine.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/F1car.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/F1car.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/F1car.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/F1car.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pilot.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Pilot.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pilot.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Pilot.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Team.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Team.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Team.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Team.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teams/AlfaRomeoRacing.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Teams/Sources/AlfaRomeoRacing.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teams/AlfaRomeoRacing.h" beforeDir="false" afterPath="$PROJECT_DIR$/Teams/Headers/AlfaRomeoRacing.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teams/AlphaTauri.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Teams/Sources/AlphaTauri.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teams/AlphaTauri.h" beforeDir="false" afterPath="$PROJECT_DIR$/Teams/Headers/AlphaTauri.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teams/Haas.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Teams/Sources/Haas.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teams/Haas.h" beforeDir="false" afterPath="$PROJECT_DIR$/Teams/Headers/Haas.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teams/McLaren.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Teams/Sources/McLaren.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teams/McLaren.h" beforeDir="false" afterPath="$PROJECT_DIR$/Teams/Headers/McLaren.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teams/MercedesAMG.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Teams/Sources/MercedesAMG.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teams/MercedesAMG.h" beforeDir="false" afterPath="$PROJECT_DIR$/Teams/Headers/MercedesAMG.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teams/RacingPoint.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Teams/Sources/RacingPoint.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teams/RacingPoint.h" beforeDir="false" afterPath="$PROJECT_DIR$/Teams/Headers/RacingPoint.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teams/RedBullRacing.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Teams/Sources/RedBullRacing.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teams/RedBullRacing.h" beforeDir="false" afterPath="$PROJECT_DIR$/Teams/Headers/RedBullRacing.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teams/Renault.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Teams/Sources/Renault.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teams/Renault.h" beforeDir="false" afterPath="$PROJECT_DIR$/Teams/Headers/Renault.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teams/ScuderiaFerrari.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Teams/Sources/ScuderiaFerrari.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teams/ScuderiaFerrari.h" beforeDir="false" afterPath="$PROJECT_DIR$/Teams/Headers/ScuderiaFerrari.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teams/Williams.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Teams/Sources/Williams.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teams/Williams.h" beforeDir="false" afterPath="$PROJECT_DIR$/Teams/Headers/Williams.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Headers/Engine.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Engine.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Headers/F1car.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/F1car.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Headers/Pilot.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Pilot.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Headers/Team.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Team.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/Engine.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Engine.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/F1car.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/F1car.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/Pilot.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Pilot.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/Team.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Team.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teams/Headers/MercedesAMG.h" beforeDir="false" afterPath="$PROJECT_DIR$/Teams/Headers/MercedesAMG.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teams/Sources/MercedesAMG.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Teams/Sources/MercedesAMG.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,9 +64,9 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -109,6 +91,10 @@
       <workItem from="1604848155608" duration="2554000" />
       <workItem from="1604955547809" duration="597000" />
       <workItem from="1605036263257" duration="10843000" />
+      <workItem from="1605087110888" duration="693000" />
+      <workItem from="1605121285434" duration="618000" />
+      <workItem from="1605177578628" duration="6932000" />
+      <workItem from="1605222903406" duration="2269000" />
     </task>
     <servers />
   </component>
@@ -120,10 +106,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.65.1280.984/0.0.1920.1040@0.0.1920.1040" timestamp="1603648046493" />
-    <state x="742" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1605047216709">
+    <state x="742" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1605188045318">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="742" y="236" key="#com.intellij.ide.util.MemberChooser/1920.0.1280.984/0.0.1920.1040@0.0.1920.1040" timestamp="1605047216709" />
+    <state x="742" y="236" key="#com.intellij.ide.util.MemberChooser/1920.0.1280.984/0.0.1920.1040@0.0.1920.1040" timestamp="1605188045318" />
     <state x="742" y="236" key="#com.intellij.ide.util.MemberChooser/1920.65.1280.984/0.0.1920.1040@0.0.1920.1040" timestamp="1603555297802" />
     <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1605046489542">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -170,9 +156,9 @@
       <screen x="1920" y="0" width="1280" height="984" />
     </state>
     <state x="1981" y="-18" width="1296" height="717" key="dock-window-2/1920.0.1280.984/0.0.1920.1040@0.0.1920.1040" timestamp="1605042144217" />
-    <state x="840" y="305" width="789" height="591" key="refactoring.ChangeSignatureDialog" timestamp="1605047408865">
+    <state x="840" y="305" width="789" height="591" key="refactoring.ChangeSignatureDialog" timestamp="1605223636271">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="840" y="305" width="789" height="591" key="refactoring.ChangeSignatureDialog/1920.0.1280.984/0.0.1920.1040@0.0.1920.1040" timestamp="1605047408865" />
+    <state x="840" y="305" width="789" height="591" key="refactoring.ChangeSignatureDialog/1920.0.1280.984/0.0.1920.1040@0.0.1920.1040" timestamp="1605223636271" />
   </component>
 </project>

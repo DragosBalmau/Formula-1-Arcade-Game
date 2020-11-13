@@ -13,21 +13,19 @@ private:
 
 public:
 
-    const Engine &getEngine() const;
-
-    void setEngine(const Engine &engine);
-
-    const std::string &getColor() const;
-
-    void setColor(const std::string &color);
-
     void moveForward();
     void moveBackward();
     void steerLeft();
     void steerRight();
+
+    void setEngine(const Engine &engine);
+
+    void setColor(const std::string &color);
 
     F1car();
 };
 
 
 #endif
+
+

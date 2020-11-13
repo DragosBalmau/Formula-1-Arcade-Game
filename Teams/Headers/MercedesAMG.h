@@ -5,6 +5,9 @@
 
 class MercedesAMG : Team {
 
+public:
+
+    MercedesAMG(std::string name, std::string color, Pilot primaryPilot, Pilot secondaryPilot, Engine engine);
 };
 
 #endif
