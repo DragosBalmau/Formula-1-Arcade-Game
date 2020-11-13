@@ -11,20 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="643cff5c-e4e3-4aca-93f1-dbf808d1712f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Engine.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Engine.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/F1car.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/F1car.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Pilot.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Pilot.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Team.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Team.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Engine.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Engine.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/F1car.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/F1car.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Pilot.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Pilot.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Team.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Team.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teams/Headers/MercedesAMG.h" beforeDir="false" afterPath="$PROJECT_DIR$/Teams/Headers/MercedesAMG.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Teams/Sources/MercedesAMG.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Teams/Sources/MercedesAMG.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="643cff5c-e4e3-4aca-93f1-dbf808d1712f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,7 +81,7 @@
       <workItem from="1605087110888" duration="693000" />
       <workItem from="1605121285434" duration="618000" />
       <workItem from="1605177578628" duration="6932000" />
-      <workItem from="1605222903406" duration="2269000" />
+      <workItem from="1605222903406" duration="2856000" />
     </task>
     <servers />
   </component>
