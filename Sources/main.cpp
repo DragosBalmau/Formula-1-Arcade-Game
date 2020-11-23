@@ -16,10 +16,26 @@
 int main() {
 
 
+    /*
+     * TODO
+     *
+     *
+     *
+     *
+     *
+     *
+     * */
+
+
     Engine renaultEngine(907,"Renault");
     Engine ferrariEngine(934, "Ferrari");
     Engine mercedesEngine(949,"Mercedes");
     Engine hondaEngine(881, "Honda");
+
+    renaultEngine.startEngine();
+    ferrariEngine.startEngine();
+    mercedesEngine.startEngine();
+    hondaEngine.startEngine();
 
     //Mercedes
     Pilot HAM("Lewis Hamilton", "United Kingdom", 44);
@@ -60,6 +76,29 @@ int main() {
     //Williams
     Pilot RUS("George Russel", "United Kingdom", 63);
     Pilot LAT("Nicholas Latifi", "Canada", 6);
+
+    HAM.finishRace(1);
+    BOT.finishRace(2);
+    VET.finishRace(3);
+    LEC.finishRace(4);
+    RIC.finishRace(5);
+    OCO.finishRace(6);
+    VER.finishRace(7);
+    ALB.finishRace(8);
+    SAI.finishRace(9);
+    NOR.finishRace(10);
+    STR.finishRace(11);
+    PER.finishRace(12);
+    GAS.finishRace(13);
+    KVY.finishRace(14);
+    GIO.finishRace(15);
+    RAI.finishRace(16);
+    MAG.finishRace(17);
+    GRO.finishRace(18);
+    RUS.finishRace(19);
+    LAT.finishRace(20);
+
+    HAM.winTheChampionship();
 
     AlfaRomeoRacing alfaRomeoRacing();
     AlphaTauri alphaTauri();

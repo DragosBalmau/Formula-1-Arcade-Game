@@ -11,7 +11,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="643cff5c-e4e3-4aca-93f1-dbf808d1712f" name="Default Changelist" comment="" />
+    <list default="true" id="643cff5c-e4e3-4aca-93f1-dbf808d1712f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/main.cpp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,6 +37,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -47,11 +51,6 @@
   </component>
   <component name="RunManager">
     <configuration name="TemePOO" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TemePOO" TARGET_NAME="TemePOO" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="TemePOO" RUN_TARGET_NAME="TemePOO">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -82,6 +81,9 @@
       <workItem from="1605121285434" duration="618000" />
       <workItem from="1605177578628" duration="6932000" />
       <workItem from="1605222903406" duration="2856000" />
+      <workItem from="1605516113091" duration="80000" />
+      <workItem from="1606056691667" duration="2457000" />
+      <workItem from="1606157681400" duration="2938000" />
     </task>
     <servers />
   </component>
