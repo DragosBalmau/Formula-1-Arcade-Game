@@ -20,14 +20,13 @@
     }
 
 
-void F1car::setEngine(const Engine &engine) {
-    F1car::engine = engine;
-}
+    void F1car::setEngine(const Engine &engine) {
+        F1car::engine = engine;
+    }
 
-void F1car::setColor(const std::string &color) {
-    F1car::color = color;
-}
+    void F1car::setColor(const std::string &color) {
+        F1car::color = color;
+    }
 
-F1car::F1car() {
+    F1car::F1car(){};
 
-}

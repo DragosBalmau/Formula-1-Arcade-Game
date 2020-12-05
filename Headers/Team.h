@@ -10,27 +10,22 @@ class Team {
 
 private:
 
-    std::string name;
-    std::string color;
-
-    Pilot primaryPilot;
-    Pilot secondaryPilot;
-
-    F1car car;
-
     int points;
     int nrVictories;
 
-
     //De ce trebuie astea daca tot mostenesc clasa Team?
-    friend class MercedesAMG;
-
     friend class ScuderiaFerrari;
 
     friend class Renault;
 
     friend class RedBullRacing;
 
+protected:
+    F1car car;
+    Pilot secondaryPilot;
+    Pilot primaryPilot;
+    std::string color;
+    std::string name;
 public:
 
     Team(const std::string &name, const std::string &color, const Pilot &primaryPilot, const Pilot &secondaryPilot,

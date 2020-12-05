@@ -3,15 +3,15 @@
 #include "../Headers/Engine.h"
 
 
-    void startEngine() {
-        printf("The engine just started!");
+    void Engine::startEngine(){
+        printf("The engine just started!\n");
     }
 
-    void stopEngine() {
-        printf("The engine just stopped!");
+    void Engine::stopEngine() {
+        printf("The engine just stopped!\n");
     }
 
     Engine::Engine(int nrHp, std::string engineCompany) : nrHp(nrHp), engineCompany(engineCompany) {}
 
-
+    Engine::Engine() {}
 

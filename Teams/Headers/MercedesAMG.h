@@ -3,9 +3,11 @@
 
 #include "../../Headers/Team.h"
 
-class MercedesAMG : Team {
+class MercedesAMG : public Team {
 
 public:
+
+    MercedesAMG();
 
     MercedesAMG(std::string name, std::string color, Pilot primaryPilot, Pilot secondaryPilot, Engine engine);
 };

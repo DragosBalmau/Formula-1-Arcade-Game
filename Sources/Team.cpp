@@ -10,5 +10,6 @@ Team::Team(const std::string &name, const std::string &color, const Pilot &prima
 
 }
 
-Team::Team()=default;
+Team::Team(){}
+
 

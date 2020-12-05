@@ -7,9 +7,6 @@
 #include "../Teams/Headers/McLaren.h"
 #include "../Teams/Headers/MercedesAMG.h"
 #include "../Teams/Headers/RacingPoint.h"
-#include "../Teams/Headers/RedBullRacing.h"
-#include "../Teams/Headers/Renault.h"
-#include "../Teams/Headers/ScuderiaFerrari.h"
 #include "../Teams/Headers/Williams.h"
 
 
@@ -18,18 +15,18 @@ int main() {
 
     /*
      * TODO
-     *
-     *
-     *
+     * 20 de masini care merg random in consola
+     * interactiune cu consola
+     * integrare in cod
      *
      *
      *
      * */
 
 
-    Engine renaultEngine(907,"Renault");
+    Engine renaultEngine(907, "Renault");
     Engine ferrariEngine(934, "Ferrari");
-    Engine mercedesEngine(949,"Mercedes");
+    Engine mercedesEngine(949, "Mercedes");
     Engine hondaEngine(881, "Honda");
 
     renaultEngine.startEngine();
@@ -37,9 +34,12 @@ int main() {
     mercedesEngine.startEngine();
     hondaEngine.startEngine();
 
+    printf("Engines are done!\n");
+
     //Mercedes
     Pilot HAM("Lewis Hamilton", "United Kingdom", 44);
     Pilot BOT("Valtteri Bottas", "Finland", 77);
+
 
     //Ferrari
     Pilot VET("Sebastian Vettel", "Germany", 5);
@@ -110,6 +110,9 @@ int main() {
     Renault renault();
     ScuderiaFerrari scuderiaFerrari();
     Williams williams();
+
+
+
 
 
 }

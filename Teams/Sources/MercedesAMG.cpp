@@ -6,6 +6,9 @@ MercedesAMG::MercedesAMG(std::string name, std::string color, Pilot primaryPilot
     this->color=color;
     this->primaryPilot=primaryPilot;
     this->secondaryPilot=secondaryPilot;
-
+    car.setEngine(engine);
+    car.setColor(color);
 
 }
+
+MercedesAMG::MercedesAMG(){}

@@ -56,6 +56,11 @@ int Pilot::finishRace(int position) {
         case 10:
             points += 1;
             break;
+
+        default:
+            points += 0;
+            break;
+
     }
 }
 
@@ -65,10 +70,14 @@ void Pilot::winTheChampionship() {
 
 }
 
-Pilot::Pilot(const std::string &name, const std::string &nationality, int numberCar) : name(name),
-                                                                                       country(country), numberCar(numberCar) {}
+Pilot::Pilot(const std::string &name, const std::string &country, int numberCar) : name(name),
+                                                                                       country(country),
+                                                                                       numberCar(numberCar) {
 
-Pilot::Pilot() {}
+    std::cout << "pilot initializat\n";
+}
+
+Pilot::Pilot() { std::cout << "pilot initializat default\n"; }
 
 
 
