@@ -5,6 +5,11 @@
 
 class RacingPoint : MercedesAMG {
 
+public:
+
+    virtual void getPosition();
+
+
 };
 
 #endif

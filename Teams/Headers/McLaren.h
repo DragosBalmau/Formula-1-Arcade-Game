@@ -5,6 +5,11 @@
 
 class McLaren : Renault {
 
+public:
+
+    virtual void getPosition();
+
+
 };
 
 #endif

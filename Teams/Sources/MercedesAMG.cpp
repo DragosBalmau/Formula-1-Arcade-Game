@@ -1,3 +1,4 @@
+#include <iostream>
 #include "../Headers/MercedesAMG.h"
 
 MercedesAMG::MercedesAMG(std::string name, std::string color, Pilot primaryPilot, Pilot secondaryPilot, Engine engine){
@@ -12,3 +13,9 @@ MercedesAMG::MercedesAMG(std::string name, std::string color, Pilot primaryPilot
 }
 
 MercedesAMG::MercedesAMG(){}
+
+void MercedesAMG::getPosition() {
+
+    std::cout << "Mercedes is 1st in the championship!!\n";
+
+}

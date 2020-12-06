@@ -1,4 +1,6 @@
 #include <iostream>
+#include <memory>
+#include <vector>
 #include "../Headers/Pilot.h"
 #include "../Headers/Team.h"
 #include "../Teams/Headers/AlfaRomeoRacing.h"
@@ -19,8 +21,6 @@ int main() {
      * interactiune cu consola
      * integrare in cod
      *
-     *
-     *
      * */
 
 
@@ -36,46 +36,77 @@ int main() {
 
     printf("Engines are done!\n");
 
+    std::vector<Pilot> pilots;
+
     //Mercedes
     Pilot HAM("Lewis Hamilton", "United Kingdom", 44);
+    pilots.push_back(HAM);
     Pilot BOT("Valtteri Bottas", "Finland", 77);
-
+    pilots.push_back(BOT);
 
     //Ferrari
     Pilot VET("Sebastian Vettel", "Germany", 5);
+    pilots.push_back(VET);
     Pilot LEC("Charles Leclerc", "Monaco", 16);
+    pilots.push_back(LEC);
 
     //Renault
     Pilot RIC("Daniel Ricciardo", "Australia", 3);
+    pilots.push_back(RIC);
     Pilot OCO("Esteban Ocon", "France", 31);
+    pilots.push_back(OCO);
 
     //RedBull
     Pilot VER("Max Verstappen", "Netherlands", 33);
+    pilots.push_back(VER);
     Pilot ALB("Alexander Albon", "Thailand", 23);
+    pilots.push_back(ALB);
 
     //McLaren
     Pilot SAI("Carlos Sainz", "Spain", 55);
+    pilots.push_back(SAI);
     Pilot NOR("Lando Norris", "United Kingdom", 4);
+    pilots.push_back(NOR);
 
     //Racing Point
     Pilot STR("Lance Stroll", "Canada", 18);
+    pilots.push_back(HAM);
     Pilot PER("Sergio Perez", "Mexico", 11);
+    pilots.push_back(HAM);
 
     //AlphaTauri
     Pilot GAS("Pierre Gasly", "France", 10);
+    pilots.push_back(GAS);
     Pilot KVY("Daniil Kvyat", "Russia", 26);
+    pilots.push_back(KVY);
 
     //Alfa Romeo Racing
     Pilot GIO("Antonio Giovinazzi", "Italy", 99);
+    pilots.push_back(GIO);
     Pilot RAI("Kimi Raikkonen", "Finland", 7);
+    pilots.push_back(RAI);
 
     //Haas
     Pilot MAG("Kevin Magnussen", "France", 20);
+    pilots.push_back(MAG);
     Pilot GRO("Romain Grojean", "Denmark", 8);
+    pilots.push_back(GRO);
 
     //Williams
     Pilot RUS("George Russel", "United Kingdom", 63);
+    pilots.push_back(RUS);
     Pilot LAT("Nicholas Latifi", "Canada", 6);
+
+
+    try {
+        if (pilots.size() != 20) {
+            int e = pilots.size();
+            throw e;
+        }
+    }
+    catch (int e) {
+        std::cout<<"There are " << e << " pilots right now. The number of pilots should be 20!";
+    }
 
     HAM.finishRace(1);
     BOT.finishRace(2);
@@ -100,19 +131,34 @@ int main() {
 
     HAM.winTheChampionship();
 
-    AlfaRomeoRacing alfaRomeoRacing();
-    AlphaTauri alphaTauri();
-    Haas hass();
-    McLaren mcLaren();
+    Team team;
+    AlfaRomeoRacing alfaRomeoRacing;
+    AlphaTauri alphaTauri;
+    Haas haas;
+    McLaren mcLaren;
     MercedesAMG mercedes("Mercedes", "black", HAM, BOT, mercedesEngine);
-    RacingPoint racingPoint();
-    RedBullRacing redBullRacing();
-    Renault renault();
-    ScuderiaFerrari scuderiaFerrari();
-    Williams williams();
+    RacingPoint racingPoint;
+    RedBullRacing redBullRacing;
+    Renault renault;
+    ScuderiaFerrari scuderiaFerrari;
+    Williams williams;
 
+    //std::unique_ptr<AlphaTauri> alpha(new AlphaTauri(alphaTauri));
 
+    team.getPosition();
+    alfaRomeoRacing.getPosition();
+    alphaTauri.getPosition();
+    haas.getPosition();
+    mcLaren.getPosition();
+    mercedes.getPosition();
+    racingPoint.getPosition();
+    redBullRacing.getPosition();
+    renault.getPosition();
+    scuderiaFerrari.getPosition();
+    williams.getPosition();
 
+/*    std::vector<std::unique_ptr<Team>> teams;
+    teams.push_back(std::move(alpha));*/
 
 
 }

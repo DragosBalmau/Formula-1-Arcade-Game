@@ -10,8 +10,8 @@ class Team {
 
 private:
 
-    int points;
     int nrVictories;
+    int points;
 
     //De ce trebuie astea daca tot mostenesc clasa Team?
     friend class ScuderiaFerrari;
@@ -31,7 +31,19 @@ public:
     Team(const std::string &name, const std::string &color, const Pilot &primaryPilot, const Pilot &secondaryPilot,
          Engine engine);
 
+    virtual void getPosition();
+
     Team();
+
+    int getPoints() const;
+
+    void setPoints(int points);
+
+    int getNrVictories() const;
+
+    void setNrVictories(int nrVictories);
+
+    Team(const Team &team2);
 
 
 };

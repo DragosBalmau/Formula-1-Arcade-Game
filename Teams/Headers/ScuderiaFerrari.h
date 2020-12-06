@@ -5,6 +5,11 @@
 
 class ScuderiaFerrari : Team {
 
+public:
+
+    virtual void getPosition();
+
+
 };
 
 #endif

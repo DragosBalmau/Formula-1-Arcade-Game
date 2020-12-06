@@ -5,6 +5,10 @@
 
 class AlphaTauri : RedBullRacing {
 
+public:
+    virtual void getPosition();
+
+
 };
 
 

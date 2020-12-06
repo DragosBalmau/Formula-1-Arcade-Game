@@ -6,6 +6,13 @@
 
 class AlfaRomeoRacing: ScuderiaFerrari {
 
+
+public:
+
+    virtual void getPosition();
+
+
+
 };
 
 

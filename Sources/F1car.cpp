@@ -1,22 +1,22 @@
-#include <stdio.h>
+#include <iostream>
 #include "../Headers/F1car.h"
 
-    void moveForward() {
+    void F1car::moveForward() {
 
-        printf("The car is moving forward!");
+        std::cout<<"The car is moving forward!"<<std::endl;
     }
 
-    void moveBackward() {
+    void F1car::moveBackward() {
 
-        printf("The car is moving backward!");
+        std::cout<<"The car is moving backward!"<<std::endl;
     }
 
-    void steerLeft() {
-        printf("The car is steering left!");
+    void F1car::steerLeft() {
+        std::cout<<"The car is steering left!"<<std::endl;
     }
 
-    void steerRight() {
-        printf("The car is steering right!");
+    void F1car::steerRight() {
+        std::cout<<"The car is steering right!"<<std::endl;
     }
 
 
@@ -28,5 +28,6 @@
         F1car::color = color;
     }
 
-    F1car::F1car(){};
+    F1car::F1car(){}
+
 

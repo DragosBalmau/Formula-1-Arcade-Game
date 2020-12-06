@@ -5,6 +5,11 @@
 
 class RedBullRacing : Team {
 
+public:
+
+    virtual void getPosition();
+
+
 };
 
 #endif

@@ -5,6 +5,11 @@
 
 class Williams : MercedesAMG {
 
+public:
+
+    virtual void getPosition();
+
+
 };
 
 #endif

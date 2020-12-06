@@ -22,7 +22,7 @@ Pilot::Pilot(const Pilot &pilot) {
 }
 
 
-int Pilot::finishRace(int position) {
+void Pilot::finishRace(int position) {
 
     switch (position) {
         case 1:

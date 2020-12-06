@@ -23,7 +23,7 @@ public:
 
     Pilot(const Pilot &pilot);
 
-    int finishRace(int position);
+    void finishRace(int position);
 
     void winTheChampionship();
 

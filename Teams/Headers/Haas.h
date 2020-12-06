@@ -5,6 +5,10 @@
 
 class Haas : ScuderiaFerrari {
 
+public:
+
+    virtual void getPosition();
+
 };
 
 #endif

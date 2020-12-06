@@ -10,6 +10,9 @@ public:
     MercedesAMG();
 
     MercedesAMG(std::string name, std::string color, Pilot primaryPilot, Pilot secondaryPilot, Engine engine);
+
+    virtual void getPosition();
+
 };
 
 #endif

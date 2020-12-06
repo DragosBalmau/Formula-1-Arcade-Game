@@ -5,6 +5,11 @@
 
 class Renault : Team {
 
+public:
+
+    virtual void getPosition();
+
+
 };
 
 
