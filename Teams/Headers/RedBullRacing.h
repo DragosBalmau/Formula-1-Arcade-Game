@@ -3,7 +3,7 @@
 
 #include "../../Headers/Team.h"
 
-class RedBullRacing : Team {
+class RedBullRacing : public Team {
 
 public:
 

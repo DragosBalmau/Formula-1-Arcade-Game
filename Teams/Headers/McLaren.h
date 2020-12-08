@@ -3,7 +3,7 @@
 
 #include "Renault.h"
 
-class McLaren : Renault {
+class McLaren : public Renault {
 
 public:
 

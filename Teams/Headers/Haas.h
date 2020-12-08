@@ -3,7 +3,7 @@
 
 #include "ScuderiaFerrari.h"
 
-class Haas : ScuderiaFerrari {
+class Haas : public ScuderiaFerrari {
 
 public:
 

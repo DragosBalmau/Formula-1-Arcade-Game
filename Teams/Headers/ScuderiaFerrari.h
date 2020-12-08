@@ -3,7 +3,7 @@
 
 #include "../../Headers/Team.h"
 
-class ScuderiaFerrari : Team {
+class ScuderiaFerrari : public Team {
 
 public:
 

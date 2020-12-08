@@ -3,7 +3,7 @@
 
 #include "../../Headers/Team.h"
 
-class Renault : Team {
+class Renault : public Team {
 
 public:
 

@@ -4,13 +4,12 @@
 
 #include "ScuderiaFerrari.h"
 
-class AlfaRomeoRacing: ScuderiaFerrari {
+class AlfaRomeoRacing : public ScuderiaFerrari {
 
 
 public:
 
     virtual void getPosition();
-
 
 
 };

@@ -3,7 +3,7 @@
 
 #include "MercedesAMG.h"
 
-class RacingPoint : MercedesAMG {
+class RacingPoint : public MercedesAMG {
 
 public:
 

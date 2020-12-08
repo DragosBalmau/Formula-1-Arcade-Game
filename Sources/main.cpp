@@ -132,33 +132,43 @@ int main() {
     HAM.winTheChampionship();
 
     Team team;
-    AlfaRomeoRacing alfaRomeoRacing;
-    AlphaTauri alphaTauri;
-    Haas haas;
-    McLaren mcLaren;
-    MercedesAMG mercedes("Mercedes", "black", HAM, BOT, mercedesEngine);
-    RacingPoint racingPoint;
-    RedBullRacing redBullRacing;
-    Renault renault;
-    ScuderiaFerrari scuderiaFerrari;
-    Williams williams;
+    std::unique_ptr<AlfaRomeoRacing> alfaRomeoRacing;
+    std::unique_ptr<Haas> haas;
+    std::unique_ptr<AlphaTauri> alphaTauri;
+    std::unique_ptr<McLaren>mcLaren;
+    std::unique_ptr<MercedesAMG> mercedes {new MercedesAMG("Mercedes", "black", HAM, BOT, mercedesEngine)};
+    std::unique_ptr<RacingPoint> racingPoint;
+    std::unique_ptr<RedBullRacing> redBullRacing;
+    std::unique_ptr<Renault> renault;
+    std::unique_ptr<ScuderiaFerrari> scuderiaFerrari;
+    std::unique_ptr<Williams> williams;
 
-    //std::unique_ptr<AlphaTauri> alpha(new AlphaTauri(alphaTauri));
+    alfaRomeoRacing->getPosition();
+    alphaTauri->getPosition();
+    haas->getPosition();
+    mcLaren->getPosition();
+    mercedes->getPosition();
+    racingPoint->getPosition();
+    redBullRacing->getPosition();
+    renault->getPosition();
+    scuderiaFerrari->getPosition();
+    williams->getPosition();
 
-    team.getPosition();
-    alfaRomeoRacing.getPosition();
-    alphaTauri.getPosition();
-    haas.getPosition();
-    mcLaren.getPosition();
-    mercedes.getPosition();
-    racingPoint.getPosition();
-    redBullRacing.getPosition();
-    renault.getPosition();
-    scuderiaFerrari.getPosition();
-    williams.getPosition();
+    std::vector<std::unique_ptr<Team>> teams;
 
-/*    std::vector<std::unique_ptr<Team>> teams;
-    teams.push_back(std::move(alpha));*/
+    teams.push_back(std::move(alphaTauri));
+    teams.push_back(std::move(alfaRomeoRacing));
+    teams.push_back(std::move(haas));
+    teams.push_back(std::move(mcLaren));
+    teams.push_back(std::move(mercedes));
+    teams.push_back(std::move(scuderiaFerrari));
+    teams.push_back(std::move(redBullRacing));
+    teams.push_back(std::move(racingPoint));
+    teams.push_back(std::move(renault));
+    teams.push_back(std::move(williams));
 
+    //Eroare de memorie
+    for(const auto &t:teams)
+        t->getPosition();
 
 }

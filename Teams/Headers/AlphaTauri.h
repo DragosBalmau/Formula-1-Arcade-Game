@@ -3,7 +3,7 @@
 
 #include "RedBullRacing.h"
 
-class AlphaTauri : RedBullRacing {
+class AlphaTauri : public RedBullRacing {
 
 public:
     virtual void getPosition();
