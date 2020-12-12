@@ -7,6 +7,10 @@ class Renault : public Team {
 
 public:
 
+    Renault();
+
+    Renault(std::string name, std::string color, Pilot primaryPilot, Pilot secondaryPilot, Engine engine);
+
     virtual void getPosition();
 
 

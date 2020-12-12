@@ -7,6 +7,10 @@ class RedBullRacing : public Team {
 
 public:
 
+    RedBullRacing();
+
+    RedBullRacing(std::string name, std::string color, Pilot primaryPilot, Pilot secondaryPilot, Engine engine);
+
     virtual void getPosition();
 
 

@@ -132,27 +132,17 @@ int main() {
     HAM.winTheChampionship();
 
     Team team;
-    std::unique_ptr<AlfaRomeoRacing> alfaRomeoRacing;
-    std::unique_ptr<Haas> haas;
-    std::unique_ptr<AlphaTauri> alphaTauri;
-    std::unique_ptr<McLaren>mcLaren;
+    std::unique_ptr<AlfaRomeoRacing> alfaRomeoRacing{ new AlfaRomeoRacing("Mercedes", "black", HAM, BOT, mercedesEngine)};
+    std::unique_ptr<Haas> haas{new Haas("Mercedes", "black", HAM, BOT, mercedesEngine)};
+    std::unique_ptr<AlphaTauri> alphaTauri{new AlphaTauri("Mercedes", "black", HAM, BOT, mercedesEngine)};
+    std::unique_ptr<McLaren>mcLaren{new McLaren("Mercedes", "black", HAM, BOT, mercedesEngine)};
     std::unique_ptr<MercedesAMG> mercedes {new MercedesAMG("Mercedes", "black", HAM, BOT, mercedesEngine)};
-    std::unique_ptr<RacingPoint> racingPoint;
-    std::unique_ptr<RedBullRacing> redBullRacing;
-    std::unique_ptr<Renault> renault;
-    std::unique_ptr<ScuderiaFerrari> scuderiaFerrari;
-    std::unique_ptr<Williams> williams;
+    std::unique_ptr<RacingPoint> racingPoint{new RacingPoint("Mercedes", "black", HAM, BOT, mercedesEngine)};
+    std::unique_ptr<RedBullRacing> redBullRacing{new RedBullRacing("Mercedes", "black", HAM, BOT, mercedesEngine)};
+    std::unique_ptr<Renault> renault{new Renault("Mercedes", "black", HAM, BOT, mercedesEngine)};
+    std::unique_ptr<ScuderiaFerrari> scuderiaFerrari{new ScuderiaFerrari("Mercedes", "black", HAM, BOT, mercedesEngine)};
+    std::unique_ptr<Williams> williams{new Williams("Mercedes", "black", HAM, BOT, mercedesEngine)};
 
-    alfaRomeoRacing->getPosition();
-    alphaTauri->getPosition();
-    haas->getPosition();
-    mcLaren->getPosition();
-    mercedes->getPosition();
-    racingPoint->getPosition();
-    redBullRacing->getPosition();
-    renault->getPosition();
-    scuderiaFerrari->getPosition();
-    williams->getPosition();
 
     std::vector<std::unique_ptr<Team>> teams;
 
@@ -167,8 +157,9 @@ int main() {
     teams.push_back(std::move(renault));
     teams.push_back(std::move(williams));
 
-    //Eroare de memorie
-    for(const auto &t:teams)
+
+    for (const auto &t:teams)
         t->getPosition();
+
 
 }

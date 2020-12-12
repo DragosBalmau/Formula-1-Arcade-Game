@@ -7,6 +7,10 @@ class RacingPoint : public MercedesAMG {
 
 public:
 
+    RacingPoint();
+
+    RacingPoint(std::string name, std::string color, Pilot primaryPilot, Pilot secondaryPilot, Engine engine);
+
     virtual void getPosition();
 
 

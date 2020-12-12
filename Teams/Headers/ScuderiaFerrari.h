@@ -7,6 +7,10 @@ class ScuderiaFerrari : public Team {
 
 public:
 
+    ScuderiaFerrari();
+
+    ScuderiaFerrari(std::string name, std::string color, Pilot primaryPilot, Pilot secondaryPilot, Engine engine);
+
     virtual void getPosition();
 
 
