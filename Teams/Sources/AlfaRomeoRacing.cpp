@@ -12,7 +12,7 @@ AlfaRomeoRacing::AlfaRomeoRacing(std::string name, std::string color, Pilot prim
 
 }
 
-AlfaRomeoRacing::AlfaRomeoRacing(){};
+AlfaRomeoRacing::AlfaRomeoRacing(){}
 
 void AlfaRomeoRacing::AlfaRomeoRacing::getPosition() {
 

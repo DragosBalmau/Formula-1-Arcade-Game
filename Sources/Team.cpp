@@ -3,15 +3,14 @@
 #include <iostream>
 
 Team::Team(const std::string &name, const std::string &color, const Pilot &primaryPilot, const Pilot &secondaryPilot, Engine engine)
-        : name(name), color(color), primaryPilot(primaryPilot), secondaryPilot(secondaryPilot) {
+        : name(name), color(color), primaryPilot(primaryPilot), secondaryPilot(secondaryPilot), car(){
 
     car.setEngine(engine);
     car.setColor(color);
 
-
 }
 
-Team::Team(){}
+Team::Team():name(),color(),primaryPilot(),secondaryPilot(),car(){}
 
 void Team::getPosition() {
 
@@ -23,29 +22,31 @@ int Team::getPoints() const {
     return points;
 }
 
-void Team::setPoints(int points) {
-    Team::points = points;
+void Team::setPoints(int mpoints) {
+    Team::points = mpoints;
 }
 
 int Team::getNrVictories() const {
     return nrVictories;
 }
 
-void Team::setNrVictories(int nrVictories) {
-    Team::nrVictories = nrVictories;
+void Team::setNrVictories(int mnrVictories) {
+    Team::nrVictories = mnrVictories;
 }
 
-Team::Team(const Team &team2) {
+Team::~Team() {}
 
+/*Team::Team(const Team &team2) {
+
+    name = team2.name;
+    color = team2.color;
+    primaryPilot = team2.primaryPilot;
+    secondaryPilot = team2.secondaryPilot;
     nrVictories = team2.nrVictories;
     points = team2.points;
     car = team2.car;
-    primaryPilot = team2.primaryPilot;
-    secondaryPilot = team2.secondaryPilot;
-    color = team2.color;
-    name = team2.name;
 
-}
+}*/
 
 
 

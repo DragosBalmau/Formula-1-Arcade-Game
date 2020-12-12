@@ -12,9 +12,8 @@ public:
     void startEngine();
     void stopEngine();
 
-    Engine(int nrHp, std::string engineCompany);
     Engine();
-
+    Engine(int nrHp, std::string engineCompany);
 
 };
 

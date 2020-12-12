@@ -12,7 +12,7 @@ AlphaTauri::AlphaTauri(std::string name, std::string color, Pilot primaryPilot, 
 
 }
 
-AlphaTauri::AlphaTauri() {};
+AlphaTauri::AlphaTauri() {}
 
 void AlphaTauri::getPosition() {
 

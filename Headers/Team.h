@@ -1,31 +1,22 @@
 #ifndef TEMEPOO_TEAM_H
 #define TEMEPOO_TEAM_H
-
-#include <string>
-#include <vector>
 #include "Pilot.h"
 #include "F1car.h"
 
 class Team {
 
-private:
-
-    int nrVictories;
-    int points;
-
-    //De ce trebuie astea daca tot mostenesc clasa Team?
-    friend class ScuderiaFerrari;
-
-    friend class Renault;
-
-    friend class RedBullRacing;
-
 protected:
-    F1car car;
-    Pilot secondaryPilot;
+
+    std::string name = "";
+    std::string color = "";
     Pilot primaryPilot;
-    std::string color;
-    std::string name;
+    Pilot secondaryPilot;
+    F1car car;
+
+private:
+    int nrVictories = 0;
+    int points = 0;
+
 public:
 
     Team(const std::string &name, const std::string &color, const Pilot &primaryPilot, const Pilot &secondaryPilot,
@@ -34,6 +25,8 @@ public:
     virtual void getPosition();
 
     Team();
+
+    virtual ~Team();
 
     int getPoints() const;
 
@@ -45,8 +38,5 @@ public:
 
     Team(const Team &team2);
 
-
 };
-
-
 #endif

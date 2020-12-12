@@ -6,16 +6,16 @@ class Pilot {
 
 private:
 
-    std::string name;
-    std::string country;
+    std::string name = "";
+    std::string country = "";
 
-    int numberCar;
-    int nrVictories;
-    int points;
+    int numberCar = 0;
+    int nrVictories = 0;
+    int points = 0;
 
 public:
 
-   // Pilot operator=(Pilot const &pilot);
+    Pilot& operator=(Pilot const &pilot);
 
     Pilot(const std::string &name, const std::string &country, int numberCar);
 

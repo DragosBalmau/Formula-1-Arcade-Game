@@ -11,7 +11,6 @@ MercedesAMG::MercedesAMG(std::string name, std::string color, Pilot primaryPilot
     car.setColor(color);
 
 }
-
 MercedesAMG::MercedesAMG() {}
 
 void MercedesAMG::getPosition() {
@@ -19,3 +18,4 @@ void MercedesAMG::getPosition() {
     std::cout << "Mercedes is 1st in the championship!!\n";
 
 }
+

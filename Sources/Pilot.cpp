@@ -2,25 +2,37 @@
 #include "../Headers/Pilot.h"
 
 
-/*Pilot Pilot::operator=(Pilot const &pilot) {
+Pilot::Pilot(const std::string &name, const std::string &country, int numberCar) : name(name),
+                                                                                   country(country),
+                                                                                   numberCar(numberCar) {
+
+    std::cout << "pilot initializat\n";
+}
+
+Pilot::Pilot() = default;
 
 
-    this->salary = pilot.salary;
+Pilot& Pilot::operator=(Pilot const &pilot) {
+
+
+    Pilot::name = pilot.name;
+    Pilot::country = pilot.country;
+    Pilot::numberCar = pilot.numberCar;
+    Pilot::nrVictories = pilot.nrVictories;
+    Pilot::points = pilot.points;
 
     return *this;
-}*/
+}
 
 Pilot::Pilot(const Pilot &pilot) {
 
-    name = pilot.name;
-    country = pilot.country;
-    numberCar = pilot.numberCar;
-    nrVictories = pilot.nrVictories;
-    points = pilot.points;
-
+    Pilot::name = pilot.name;
+    Pilot::country = pilot.country;
+    Pilot::numberCar = pilot.numberCar;
+    Pilot::nrVictories = pilot.nrVictories;
+    Pilot::points = pilot.points;
 
 }
-
 
 void Pilot::finishRace(int position) {
 
@@ -69,15 +81,6 @@ void Pilot::winTheChampionship() {
     std::cout << name << " has won the 2020 F1 Championship!!!" << std::endl;
 
 }
-
-Pilot::Pilot(const std::string &name, const std::string &country, int numberCar) : name(name),
-                                                                                       country(country),
-                                                                                       numberCar(numberCar) {
-
-    std::cout << "pilot initializat\n";
-}
-
-Pilot::Pilot() { std::cout << "pilot initializat default\n"; }
 
 
 

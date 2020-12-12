@@ -1,17 +1,17 @@
 #ifndef TEMEPOO_F1CAR_H
 #define TEMEPOO_F1CAR_H
-#include <string>
 #include "Engine.h"
-
 
 class F1car{
 
 private:
 
     Engine engine;
-    std::string color;
+    std::string color = "";
 
 public:
+
+    F1car();
 
     void moveForward();
     void moveBackward();
@@ -21,8 +21,6 @@ public:
     void setEngine(const Engine &engine);
 
     void setColor(const std::string &color);
-
-    F1car();
 };
 
 
