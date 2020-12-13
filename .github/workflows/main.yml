@@ -17,7 +17,7 @@ jobs:
       run:
         sudo apt-get install -y valgrind cppcheck g++-9 gcovr
     - name: make
-      run: g++ Sources/*.cpp Teams/Sources/AlfaRomeoRacing.cpp -o main -std=c++14 -Wall -Wextra -pedantic -Weffc++
+      run: g++ Sources/*.cpp Teams/Sources/AlfaRomeoRacing.cpp Teams/Sources/Haas.cpp Teams/Sources/AlphaTauri.cpp Teams/Sources/McLaren.cpp Teams/Sources/MercedesAMG.cpp Teams/Sources/RacingPoint.cpp Teams/Sources/RedBullRacing.cpp Teams/Sources/Renault.cpp Teams/Sources/ScuderiaFerrari.cpp  Teams/Sources/Williams.cpp -o main -std=c++14 -Wall -Wextra -pedantic -Weffc++
                 --coverage -fprofile-arcs -ftest-coverage -g -O0 -lm
     - name: cppcheck
       run:
@@ -28,7 +28,7 @@ jobs:
                  --track-origins=yes --error-exitcode=1 ./main
     - name: coverage
       run: |
-        gcov Sources/*.cpp Teams/Sources/AlfaRomeoRacing.cpp
+        gcov Sources/*.cpp Teams/Sources/AlfaRomeoRacing.cpp Teams/Sources/Haas.cpp Teams/Sources/AlphaTauri.cpp Teams/Sources/McLaren.cpp Teams/Sources/MercedesAMG.cpp Teams/Sources/RacingPoint.cpp Teams/Sources/RedBullRacing.cpp Teams/Sources/Renault.cpp Teams/Sources/ScuderiaFerrari.cpp  Teams/Sources/Williams.cpp
         mkdir cov/
         gcovr -r . --html --html-details -o cov/coverage.html --print-summary
         mv -v cov/  public/
