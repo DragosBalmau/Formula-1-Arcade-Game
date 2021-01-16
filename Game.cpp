@@ -2,14 +2,14 @@
 #include "Game.h"
 #include "IO/MOUSE.h"
 
-void Game::finish(int nr){
+/*void Game::finish(int nr){
 
     Sprite fundalCursa = Sprite("Resorces/download.png",0,0);
     fundalCursa.setScale(10,10);
 
-    exit();
 
-}
+
+}*/
 
 [[noreturn]] void Game::start(){
 
@@ -46,7 +46,7 @@ void Game::finish(int nr){
         for (auto &it : masini) {
             nr++;
             if (it.getXPos() >= 1800) {
-                finish(nr + 1);
+                exit();
             }
             else {
                 it.update();

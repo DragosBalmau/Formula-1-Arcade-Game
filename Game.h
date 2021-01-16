@@ -16,7 +16,7 @@ public:
 
     [[noreturn]] void start();
 
-    void finish(int nr);
+    //void finish(int nr);
 };
 
 
