@@ -10,6 +10,7 @@
 #include "../Teams/Headers/MercedesAMG.h"
 #include "../Teams/Headers/RacingPoint.h"
 #include "../Teams/Headers/Williams.h"
+#include "../Game.h"
 
 
 int main() {
@@ -158,6 +159,11 @@ int main() {
 
     for (const auto &t:teams)
         t->getPosition();
+
+
+
+
+    Game().init();
 
 
 }
