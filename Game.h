@@ -8,13 +8,19 @@ class Game : public Fereastra, public Sprite {
 
 private:
     Fereastra fereastra;
-
-public:
+    static Game * instance;
     Game();
+public:
 
     int init();
 
     [[noreturn]] void start();
+
+    static Game *getInstance(){
+        if (!instance)
+            instance = new Game;
+        return instance;
+    };
 
     //void finish(int nr);
 };

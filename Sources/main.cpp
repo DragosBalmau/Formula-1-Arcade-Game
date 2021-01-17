@@ -13,6 +13,8 @@
 #include "../Game.h"
 
 
+Game *Game::instance = nullptr;
+
 int main() {
 
 
@@ -161,9 +163,8 @@ int main() {
         t->getPosition();
 
 
-
-
-    Game().init();
+    Game *game = Game::getInstance();
+    game->init();
 
 
 }
