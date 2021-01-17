@@ -13,8 +13,8 @@
 
 [[noreturn]] void Game::start(){
 
-    Sprite fundalCursa = Sprite("Resorces/download.png",0,0);
-    fundalCursa.setScale(10,10);
+    Sprite fundalCursa = Sprite("Resorces/pista.png",0,0);
+    fundalCursa.setScale(1,1);
 
     std::vector<Sprite> masini;
     std::vector<Sprite> semafor;
@@ -26,8 +26,10 @@
 
     for (int i = 1; i <= 10; ++i) {
 
-        masini.emplace_back("Resorces/pitstop_car_4.png", 10,  900 - (60 * i));
-        masini.back().setScale(0.1f);
+        masini.emplace_back("Resorces/Layer " + std::to_string(i)+ ".png", 10,  1050 - (87 * i));
+        masini.back().setScale(0.2f);
+        masini.back().setRot(-90);
+
     }
 
     bool start = false;
@@ -39,13 +41,13 @@
 
         if (!start) {
             ++sem;
-            if(sem == 500)
+            if(sem == 400)
                 start = true;
         }
         int nr = 0;
         for (auto &it : masini) {
             nr++;
-            if (it.getXPos() >= 1800) {
+            if (it.getXPos() >= 1645) {
                 exit();
             }
             else {
