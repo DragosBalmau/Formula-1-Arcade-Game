@@ -13,20 +13,20 @@
 
 [[noreturn]] void Game::start(){
 
-    Sprite fundalCursa = Sprite("Resorces/pista.png",0,0);
+    Sprite fundalCursa = Sprite("Resources/pista.png",0,0);
     fundalCursa.setScale(1,1);
 
     std::vector<Sprite> masini;
     std::vector<Sprite> semafor;
 
     for (int i = 1; i <= 4; ++i) {
-        semafor.emplace_back("Resorces/sem" + std::to_string(i) + ".png", 700,  450);
+        semafor.emplace_back("Resources/sem" + std::to_string(i) + ".png", 700,  450);
         semafor.back().setScale(1);
     }
 
     for (int i = 1; i <= 10; ++i) {
 
-        masini.emplace_back("Resorces/Layer " + std::to_string(i)+ ".png", 10,  1050 - (87 * i));
+        masini.emplace_back("Resources/Layer " + std::to_string(i)+ ".png", 10,  1050 - (87 * i));
         masini.back().setScale(0.2f);
         masini.back().setRot(-90);
 
@@ -89,13 +89,13 @@ int Game::init(){
 
 
     fereastra.initialize("Joc F1");
-    Sprite fundal = Sprite("Resorces/wallpaper.jpg",0,0);
+    Sprite fundal = Sprite("Resources/wallpaper.jpg",0,0);
     fundal.setScale(1.0f,1.0f);
 
-    Sprite buttonPlay = Sprite("Resorces/download.png", 100, 400);
+    Sprite buttonPlay = Sprite("Resources/download.png", 100, 400);
     buttonPlay.setScale(1.2f,.5f);
 
-    Sprite buttonExit = Sprite("Resorces/download.png", 100, 300);
+    Sprite buttonExit = Sprite("Resources/download.png", 100, 300);
     buttonExit.setScale(1.2f,.5f);
 
     while (true){
