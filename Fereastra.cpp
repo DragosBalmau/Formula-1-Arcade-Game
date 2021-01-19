@@ -7,10 +7,11 @@ GLFWwindow *Fereastra::fereastra = nullptr;
 Fereastra::Fereastra() {
 }
 
-void Fereastra::exit(){
+int Fereastra::exit(){
 
+    Fereastra::endRender();
     glfwDestroyWindow(fereastra);
-    return;
+    return 0;
 
 }
 

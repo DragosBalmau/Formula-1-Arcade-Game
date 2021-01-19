@@ -2,21 +2,22 @@
 
 #include <utility>
 
-Sprite::Sprite() : textura(Textura()),
+Sprite::Sprite() : path(""), textura(Textura()),
                    xPos(0),
                    yPos(0),
                    rot(0),
                    xScale(0),
                    yScale(0) {}
 
-Sprite::Sprite(std::string imagePath) : textura(Textura(std::move(imagePath))),
+Sprite::Sprite(std::string imagePath) : path(imagePath), textura(Textura(std::move(imagePath))),
                                         xPos(0),
                                         yPos(0),
                                         rot(0),
                                         xScale(0),
                                         yScale(0) {}
 
-Sprite::Sprite(std::string imagePath, float _xPos, float _yPos) : textura(Textura(std::move(imagePath))),
+Sprite::Sprite(std::string imagePath, float _xPos, float _yPos) : path(imagePath),
+                                                                  textura(Textura(std::move(imagePath))),
                                                                   xPos(_xPos),
                                                                   yPos(_yPos),
                                                                   rot(0),
@@ -53,6 +54,10 @@ void Sprite::render() {
 
 }
 
+const std::string &Sprite::getPath() const {
+    return path;
+}
+
 void Sprite::setPos(float _xSprite, float _ySprite) {
     xPos = _xSprite;
     yPos = _ySprite;
@@ -87,5 +92,3 @@ bool Sprite::isUsed() const {
 void Sprite::setUsed(bool _used) {
     Sprite::used = _used;
 }
-
-

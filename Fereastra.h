@@ -22,7 +22,7 @@ public:
 
     static GLFWwindow *fereastra;
 
-    void exit();
+    int exit();
 
 protected:
 

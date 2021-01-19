@@ -4,7 +4,7 @@
 #include "Textura.h"
 #include <glfw3.h>
 #include <iostream>
-#include <string.h>
+#include <cstring>
 
 class Sprite {
 public:
@@ -34,8 +34,11 @@ public:
 
     void setUsed(bool _used);
 
+    const std::string &getPath() const;
+
 
 private:
+    std::string path;
     Textura textura;
     float xPos;
     float yPos;
@@ -46,4 +49,4 @@ private:
 };
 
 
-#endif //SEPTICA_SPRITE_H
+#endif

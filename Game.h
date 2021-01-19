@@ -14,7 +14,7 @@ public:
 
     int init();
 
-    [[noreturn]] void start();
+    int start();
 
     static Game *getInstance(){
         if (!instance)
@@ -22,7 +22,8 @@ public:
         return instance;
     };
 
-    //void finish(int nr);
+    void finish(std::string pathImage);
+
 };
 
 
