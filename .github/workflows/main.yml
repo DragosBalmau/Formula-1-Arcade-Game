@@ -15,9 +15,10 @@ jobs:
     - uses: actions/checkout@v2
     - name: dependencies
       run:
+        sudo apt install -y libglu1-mesa-dev freeglut3-dev mesa-common-dev libsoil-dev libglfw3-dev 
         sudo apt-get install -y valgrind cppcheck g++-9 gcovr
     - name: make
-      run: g++ Sources/*.cpp Teams/Sources/AlfaRomeoRacing.cpp Teams/Sources/Haas.cpp Teams/Sources/AlphaTauri.cpp Teams/Sources/McLaren.cpp Teams/Sources/MercedesAMG.cpp Teams/Sources/RacingPoint.cpp Teams/Sources/RedBullRacing.cpp Teams/Sources/Renault.cpp Teams/Sources/ScuderiaFerrari.cpp  Teams/Sources/Williams.cpp -o main -std=c++14 -Wall -Wextra -pedantic -Weffc++
+      run: g++-9 Sources/*.cpp Teams/Sources/*.cpp Grafica/*.cpp *.cpp IO/*.cpp -o main  -g -I/usr/include/GLFW -I/usr/include/SOIL -lglfw -lGL -lSOIL -std=c++14 -Wall -Wextra -pedantic -Weffc++
                 --coverage -fprofile-arcs -ftest-coverage -g -O0 -lm
     - name: cppcheck
       run:
