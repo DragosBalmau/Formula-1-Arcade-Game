@@ -18,15 +18,6 @@ Game *Game::instance = nullptr;
 int main() {
 
 
-    /*
-     * TODO
-     * 20 de masini care merg random in consola
-     * interactiune cu consola
-     * integrare in cod
-     *
-     * */
-
-
     Engine renaultEngine(907, "Renault");
     Engine ferrariEngine(934, "Ferrari");
     Engine mercedesEngine(949, "Mercedes");
@@ -134,16 +125,16 @@ int main() {
 
     HAM.winTheChampionship();
 
-    std::unique_ptr<AlfaRomeoRacing> alfaRomeoRacing{new AlfaRomeoRacing("AlfaRomeoRacing", "white and red", RAI, GIO, mercedesEngine)};
-    std::unique_ptr<Haas> haas{new Haas("Haas", "black and white", GRO, MAG, ferrariEngine)};
-    std::unique_ptr<AlphaTauri> alphaTauri{new AlphaTauri("AlphaTauri", "white and dark blue", GAS, KVY, hondaEngine)};
-    std::unique_ptr<McLaren> mcLaren{new McLaren("McLaren", "papaya orange", SAI, NOR, renaultEngine)};
-    std::unique_ptr<MercedesAMG> mercedes{new MercedesAMG("Mercedes", "black", HAM, BOT, mercedesEngine)};
-    std::unique_ptr<RacingPoint> racingPoint{new RacingPoint("RacingPoint", "pink", PER, STR, mercedesEngine)};
-    std::unique_ptr<RedBullRacing> redBullRacing{new RedBullRacing("RedBullRacing", "dark blue", VER, ALB, hondaEngine)};
-    std::unique_ptr<Renault> renault{new Renault("Renault", "black and yellow", RIC, OCO, renaultEngine)};
-    std::unique_ptr<ScuderiaFerrari> scuderiaFerrari{new ScuderiaFerrari("ScuderiaFerrari", "red", VET, LAT, ferrariEngine)};
-    std::unique_ptr<Williams> williams{new Williams("Williams", "white", RUS, LAT, mercedesEngine)};
+    std::unique_ptr<AlfaRomeoRacing> alfaRomeoRacing = std::make_unique<AlfaRomeoRacing>("AlfaRomeoRacing", "white and red", RAI, GIO, mercedesEngine);
+    std::unique_ptr<Haas> haas = std::make_unique<Haas>("Haas", "black and white", GRO, MAG, ferrariEngine);
+    std::unique_ptr<AlphaTauri> alphaTauri = std::make_unique<AlphaTauri>("AlphaTauri", "white and dark blue", GAS, KVY, hondaEngine);
+    std::unique_ptr<McLaren> mcLaren = std::make_unique<McLaren>("McLaren", "papaya orange", SAI, NOR, renaultEngine);
+    std::unique_ptr<MercedesAMG> mercedes = std::make_unique<MercedesAMG>("Mercedes", "black", HAM, BOT, mercedesEngine);
+    std::unique_ptr<RacingPoint> racingPoint = std::make_unique<RacingPoint>("RacingPoint", "pink", PER, STR, mercedesEngine);
+    std::unique_ptr<RedBullRacing> redBullRacing = std::make_unique<RedBullRacing>("RedBullRacing", "dark blue", VER, ALB, hondaEngine);
+    std::unique_ptr<Renault> renault = std::make_unique<Renault>("Renault", "black and yellow", RIC, OCO, renaultEngine);
+    std::unique_ptr<ScuderiaFerrari> scuderiaFerrari = std::make_unique<ScuderiaFerrari>("ScuderiaFerrari", "red", VET, LAT, ferrariEngine);
+    std::unique_ptr<Williams> williams = std::make_unique<Williams>("Williams", "white", RUS, LAT, mercedesEngine);
 
     std::vector<std::unique_ptr<Team>> teams;
 

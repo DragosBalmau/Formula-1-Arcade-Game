@@ -17,7 +17,7 @@ public:
 
     Pilot& operator=(Pilot const &pilot);
 
-    Pilot(const std::string &name, const std::string &country, int numberCar);
+    Pilot(std::string name, std::string country, int numberCar);
 
     Pilot();
 

@@ -2,8 +2,8 @@
 #include "../Headers/Pilot.h"
 
 
-Pilot::Pilot(const std::string &name, const std::string &country, int numberCar) : name(name),
-                                                                                   country(country),
+Pilot::Pilot(std::string name, std::string country, int numberCar) : name(std::move(name)),
+                                                                                   country(std::move(country)),
                                                                                    numberCar(numberCar) {
 
     std::cout << "pilot initializat\n";
