@@ -4,7 +4,6 @@
 #include "Textura.h"
 #include <glfw3.h>
 #include <iostream>
-#include <cstring>
 
 class Sprite {
 public:

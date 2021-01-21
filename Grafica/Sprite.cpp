@@ -1,7 +1,5 @@
 #include "Sprite.h"
 
-#include <utility>
-
 Sprite::Sprite() : path(""), textura(Textura()),
                    xPos(0),
                    yPos(0),

@@ -2,7 +2,8 @@
 #include <vector>
 #include "Game.h"
 #include "IO/MOUSE.h"
-#include <windows.h>
+#include <chrono>
+#include <thread>
 
 
 void Game::finish(std::string pathImage) {
@@ -20,7 +21,8 @@ void Game::finish(std::string pathImage) {
     masinaCastig.render();
 
     Fereastra::endRender();
-    Sleep(5000);
+    using namespace std::chrono_literals;
+    std::this_thread::sleep_for(2000ms);
     exit();
 
 }
