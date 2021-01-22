@@ -48,7 +48,7 @@ The race is completely random based on a [generation of distances](https://githu
 - -Weffc++
 - -Werror
 
-# Future updates
+## Future updates
 
 - Audio (I'm going to use an audio library [irrKlang](https://www.ambiera.com/irrklang/) for menu backgroung and for cars' effects)
 - Make a career mode
