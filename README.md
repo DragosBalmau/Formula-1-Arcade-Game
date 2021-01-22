@@ -8,7 +8,17 @@ The race is completely random based on a [generation of distances](https://githu
 
 ## Screenshots from the game
 
+### Start screen
 
+![alt text](https://github.com/DragosBalmau/TemePOO/blob/main/Screenshots/start.png)
+
+### Prerace
+
+![alt text](https://github.com/DragosBalmau/TemePOO/blob/main/Screenshots/prerace.png)
+
+### Finish
+
+![alt text](https://github.com/DragosBalmau/TemePOO/blob/main/Screenshots/end.png)
 
 ## Theoretical concepts of OOP treated in this project
 
