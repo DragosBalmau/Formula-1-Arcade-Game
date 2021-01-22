@@ -4,21 +4,21 @@
 
 This is an arcade game inspired by [Arlington Horse Racing](https://en.wikipedia.org/wiki/Arlington_Horse_Racing) made with [GLFW](https://www.glfw.org/) and [SOIL](https://github.com/Friduric/simple-opengl-image-library) libraries.
 
-The race is completely random based on a [generation of distances](https://github.com/DragosBalmau/TemePOO/blob/main/Game.cpp#L88), which the cars cover at every step until one reaches the finish line.
+The race is completely random based on a [generation of distances](https://github.com/DragosBalmau/Formula-1-Arcade-Game/blob/main/Game.cpp#L88), which the cars cover at every step until one reaches the finish line.
 
 ## Screenshots from the game
 
 ### Start screen
 
-![alt text](https://github.com/DragosBalmau/TemePOO/blob/main/Screenshots/start.png)
+![alt text](https://github.com/DragosBalmau/Formula-1-Arcade-Game/blob/main/Screenshots/start.png)
 
 ### Prerace
 
-![alt text](https://github.com/DragosBalmau/TemePOO/blob/main/Screenshots/prerace.png)
+![alt text](https://github.com/DragosBalmau/Formula-1-Arcade-Game/blob/main/Screenshots/prerace.png)
 
 ### Finish
 
-![alt text](https://github.com/DragosBalmau/TemePOO/blob/main/Screenshots/end.png)
+![alt text](https://github.com/DragosBalmau/Formula-1-Arcade-Game/blob/main/Screenshots/end.png)
 
 ## Theoretical concepts of OOP treated in this project
 
